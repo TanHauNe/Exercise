@@ -2,35 +2,35 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 901px;
+    height: 90.1rem;
 }
 
 .pricing-card {
-    height: 568px;
-    width: 407px;
-    border-radius: 20px;
+    height: 56.8rem;
+    width: 40.7rem;
+    border-radius: 2rem;
     background-color: #ffffff;
-    box-shadow: 0px 10px 28px rgba(62, 53, 120, 0.07);
+    box-shadow: 0rem 1rem 2.8rem rgba(62, 53, 120, 0.07);
 }
 
 .pricing-head {
-    padding-top: 60px;
+    padding-top: 6rem;
 }
 
 .pricing-head__title {
     font-weight: 600;
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 4rem;
+    line-height: 6rem;
     text-align: center;
     color: var(--text-dark);
-    margin-bottom: 19px;
+    margin-bottom: 1.9rem;
 }
 
 .pricing-head__sub {
-    width: 716px;
+    width: 71.6rem;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
     text-align: center;
     color: rgba(0, 0, 0, 0.6);
 }
@@ -38,8 +38,8 @@
 .pricing-body {
     display: flex;
     justify-content: center;
-    gap: 40px;
-    padding-top: 90px;
+    gap: 4rem;
+    padding-top: 9rem;
 }
 
 .pricing-card {
@@ -50,24 +50,24 @@
 
 .pricing-card__title {
     font-weight: 700;
-    font-size: 28px;
-    line-height: 26px;
+    font-size: 2.8rem;
+    line-height: 2.6rem;
     text-align: center;
-    padding-top: 45px;
+    padding-top: 4.5rem;
 }
 
 .pricing-card__price {
     font-weight: 600;
-    font-size: 60px;
-    line-height: 90px;
+    font-size: 6rem;
+    line-height: 9rem;
     text-align: center;
-    padding-top: 38px;
+    padding-top: 3.8rem;
 }
 
 .pricing-card__expiry {
     font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
     text-align: center;
     color: var(--text-dark);
 }
@@ -75,48 +75,48 @@
 .pricing-card__benefit {
     display: flex;
     flex-direction: column;
-    padding: 53px 0;
+    padding: 5.3rem 0;
 }
 
 .pricing-card__line {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 3rem;
 }
 
 .pricing-card__line img {
-    width: 20px;
-    height: 20px;
+    width: 2rem;
+    height: 2rem;
 }
 
 .pricing-card__line p {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
-    line-height: 42px;
+    line-height: 4.2rem;
     color: var(--text-dark);
     margin: 0;
 }
 
 .pricing-card__btn {
-    width: 306px;
-    height: 60px;
+    width: 30.6rem;
+    height: 6rem;
     background-color: #f7f5ff;
-    border-radius: 60px;
+    border-radius: 6rem;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
     color: var(--purple-dark);
     border-color: transparent;
 }
 
 .pricing-card__btnpri {
-    width: 306px;
-    height: 60px;
+    width: 30.6rem;
+    height: 6rem;
     background-color: var(--purple-dark);
-    border-radius: 60px;
+    border-radius: 6rem;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
     color: white;
     border-color: transparent;
 }

@@ -1,10 +1,10 @@
-.introduce{
+.introduce {
     background-color: var(--background);
 }
 
 .introduce-main {
     position: relative;
-    height: 813px;
+    height: 81.3rem;
     display: flex;
 }
 
@@ -12,11 +12,11 @@
     flex: 1;
 }
 .introduce-text__main {
-    padding-top: 156px;
-    height: 240px;
-    font-size: 60px;
+    padding-top: 15.6rem;
+    height: 24rem;
+    font-size: 6rem;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 8rem;
     display: flex;
     gap: 0;
     flex-direction: column;
@@ -32,32 +32,32 @@
 }
 
 .introduce-text__sub {
-    height: 56px;
-    width: 531px;
-    margin-top: 24px;
+    height: 5.6rem;
+    width: 53.1rem;
+    margin-top: 2.4rem;
 }
 
 .introduce-text__sub p {
     margin: 0;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 2.8rem;
 }
 
 .introduce-button {
     display: flex;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 6rem;
 }
 
 .introduce-button__play {
     background-color: white;
     border: 1px solid #f2f2f2;
-    margin-left: 22px;
-    margin-right: 14px;
+    margin-left: 2.2rem;
+    margin-right: 1.4rem;
     display: flex;
     align-items: center;
-    padding: 18px;
+    padding: 1.8rem;
     border-radius: 50%;
 }
 
@@ -67,8 +67,8 @@
 
 .introduce-button__text {
     font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
     color: var(--text-dark);
 }
 
@@ -77,22 +77,22 @@
 }
 
 .introduce-right__main {
-    width: 575px;
-    height: 575px;
+    width: 57.5rem;
+    height: 57.5rem;
     background-color: #b3c3ff;
     border-radius: 50%;
-    margin: 194px auto 44px auto;
+    margin: 19.4rem auto 4.4rem auto;
     position: relative;
 }
 .introduce-card {
     position: absolute;
-    top: 550px;
-    left: 658px;
-    height: 154px;
-    width: 416px;
-    border-radius: 17px;
+    top: 55rem;
+    left: 65.8rem;
+    height: 15.4rem;
+    width: 41.6rem;
+    border-radius: 1.7rem;
     background-color: rgba(255, 255, 255, 0.74);
-    box-shadow: 0px 11px 39px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 1.1rem 3.9rem rgba(0, 0, 0, 0.07);
     backdrop-filter: blur(5.5px);
     display: flex;
     align-items: center;
@@ -100,105 +100,105 @@
 }
 
 .introduce-card__img {
-    height: 102px;
-    width: 102px;
-    border-radius: 20px;
+    height: 10.2rem;
+    width: 10.2rem;
+    border-radius: 2rem;
     background-color: var(--gray);
-    margin-left: 26px;
+    margin-left: 2.6rem;
 }
 
 .introduce-card__info {
     display: flex;
     flex-direction: column;
-    padding-left: 16px;
+    padding-left: 1.6rem;
 }
 
 .introduce-card__name {
-    font-size: 26px;
+    font-size: 2.6rem;
     font-weight: 600;
-    line-height: 39px;
+    line-height: 3.9rem;
 }
 
 .introduce-card__job {
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 400;
-    line-height: 20px;
-    margin-bottom: 15.5px;
+    line-height: 2rem;
+    margin-bottom: 1.55rem;
 }
 
 .introduce-card__star {
     display: flex;
-    gap: 9px;
+    gap: 0.9rem;
 }
 
 .introduce-card__tick {
     display: flex;
-    gap: 21.5px;
+    gap: 2.15rem;
 }
 
 .introduce-card__tick img {
-    height: 30px;
-    width: 30px;
+    height: 3rem;
+    width: 3rem;
 }
 
 .introduce-ellipse {
     position: absolute;
-    height: 575px;
-    width: 575px;
-    top: 194px;
-    left: 926px;
+    height: 57.5rem;
+    width: 57.5rem;
+    top: 19.4rem;
+    left: 92.6rem;
     z-index: 2;
 }
 
 .introduce-chart {
     position: absolute;
-    top: 102px;
-    right: -112px;
+    top: 10.2rem;
+    right: -11.2rem;
     z-index: 4;
-    height: 201px;
-    width: 204px;
+    height: 20.1rem;
+    width: 20.4rem;
 }
 
 .introduce-circles {
     position: absolute;
-    width: 36px;
-    height: 66px;
+    width: 3.6rem;
+    height: 6.6rem;
     top: 0;
-    left: -46px;
+    left: -4.6rem;
 }
 
 .introduce-circlesxam {
-    height: 46.2px;
-    width: 46.5px;
+    height: 4.62rem;
+    width: 4.65rem;
     position: absolute;
-    top: 442px;
-    right: -63px;
+    top: 44.2rem;
+    right: -6.3rem;
 }
 
 .introduce-purpledot {
-    height: 54px;
-    width: 54px;
+    height: 5.4rem;
+    width: 5.4rem;
     position: absolute;
-    right: 11px;
-    bottom: 133px;
+    right: 1.1rem;
+    bottom: 13.3rem;
     z-index: 5;
 }
 
 .introduce-emoji {
     position: absolute;
-    top: -107px;
-    right: 153px;
-    height: 92px;
-    width: 82px;
+    top: -10.7rem;
+    right: 15.3rem;
+    height: 9.2rem;
+    width: 8.2rem;
 }
 
 .introduce-bluedot {
     position: absolute;
-    top: -10px;
-    right: 58px;
+    top: -1rem;
+    right: 5.8rem;
 }
 
 .introduce-slider {
     position: absolute;
-    top: 682px;
+    top: 68.2rem;
 }

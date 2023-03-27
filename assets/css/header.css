@@ -1,6 +1,6 @@
 .header {
-    height: 130px;
-    background-color: var(--background)
+    height: 13rem;
+    background-color: var(--background);
 }
 
 .wrapper-header {
@@ -14,7 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 128px;
+    gap: 12.8rem;
 }
 
 .header-logo {
@@ -23,34 +23,34 @@
 }
 
 .header-logo img .logo {
-    height: 57px;
-    width: 57px;
+    height: 5.7rem;
+    width: 5.7rem;
 }
 
 .header-logo img .name {
-    height: 31px;
-    width: 71px;
+    height: 3.1rem;
+    width: 7.1rem;
 }
 
 .header-nav {
     display: flex;
-    gap: 51px;
+    gap: 5.1rem;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
 }
 
 .header-right {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 2rem;
 }
 
 .header-search {
-    height: 60px;
-    width: 385px;
-    border-radius: 37px;
+    height: 6rem;
+    width: 38.5rem;
+    border-radius: 3.7rem;
     background-color: white;
     position: relative;
     display: flex;
@@ -59,14 +59,15 @@
 
 .header-search input {
     border-color: transparent;
-    padding-left: 30px;
+    outline: none;
+    padding-left: 3rem;
 }
 
 .header-search img {
-    height: 20x;
-    width: 20x;
+    height: 2rem;
+    width: 2rem;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: 20px;
+    right: 2rem;
 }

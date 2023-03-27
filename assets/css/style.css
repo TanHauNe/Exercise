@@ -25,6 +25,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: white;
     margin: 0;
+    font-size: 10px;
 }
 
 a {
@@ -79,35 +80,27 @@ img:hover {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 1200px) {
+
+@media screen and (max-width: 1700px) {
+    html {
+        font-size: 8px;
+    }
     .wrapper {
+        max-width: 85%;
         width: 100%;
     }
-    .header-left {
-        flex-direction: column;
-    }
-    .header-nav {
-        flex-direction: column;
-    }
-    .introduce-left {
-        width: 100%;
-    }
-    .introduce-right {
+    /* .featured-card__profile:nth-last-child(1) {
         display: none;
+    } */
+    .featured-card{
+        /* justify-content: space-around; */
+        overflow-x: scroll;
     }
-    .howwork {
-        flex-wrap: wrap;
-    }
-    .howwork-right {
-        display: none;
-    }
-    .featured-card {
-        flex-wrap: wrap;
-    }
-    .featured-arrow {
-        display: none;
-    }
-    .brandlogo{
-        flex-wrap: wrap;
+
+}
+
+@media screen and (max-width: 1500px){
+    html {
+        font-size: 7px;
     }
 }
