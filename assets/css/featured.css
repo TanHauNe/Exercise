@@ -1,0 +1,153 @@
+.featured {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    margin-top: 115px !important;
+    position: relative;
+}
+
+.featured-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.featured-text a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--purple-dark);
+}
+
+.featured-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--text-dark);
+}
+
+.featured-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.featured-card__profile {
+    display: flex;
+    flex-direction: column;
+    width: 374px;
+    height: 238px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 28px rgba(62, 53, 120, 0.04);
+    border-radius: 18px;
+}
+
+.featured-card__top {
+    display: flex;
+    flex: 1;
+}
+
+.featured-card__img {
+    width: 86px;
+    height: 86px;
+    background-color: var(--gray);
+    border-radius: 50%;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 23px;
+}
+
+.featured-card__img img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.featured-card__info {
+    margin-top: 53px;
+}
+
+.featured-card__text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--text-dark);
+}
+
+.featured-card__sub {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: black;
+}
+
+.featured-card_bot {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    justify-content: space-between;
+}
+
+.featured-card__starnum {
+    display: flex;
+    align-items: center;
+}
+
+.featured-card__star {
+    display: flex;
+    gap: 6px;
+    margin-right: 12px;
+}
+
+.featured-card__star img {
+    height: 15px;
+    width: 16px;
+}
+
+.featured-card__num {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.featured-card_btn {
+    width: 103px;
+    height: 43px;
+    background-color: var(--orange);
+    border-radius: 37px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    border-color: transparent;
+}
+
+.featured-card_btn:hover {
+    background-color: white;
+    color: var(--orange);
+    border-color: var(--orange);
+}
+
+.featured-arrow {
+    height: 50px;
+    width: 50px;
+    background-color: var(--purple-dark);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-arrowleft {
+    position: absolute;
+    top: 185px;
+    left: -25px;
+}
+
+.featured-arrowright {
+    position: absolute;
+    top: 185px;
+    right: -25px;
+}

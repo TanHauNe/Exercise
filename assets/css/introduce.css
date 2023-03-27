@@ -1,0 +1,204 @@
+.introduce{
+    background-color: var(--background);
+}
+
+.introduce-main {
+    position: relative;
+    height: 813px;
+    display: flex;
+}
+
+.introduce-left {
+    flex: 1;
+}
+.introduce-text__main {
+    padding-top: 156px;
+    height: 240px;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 80px;
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+}
+
+.introduce-text__main p {
+    margin: 0;
+    color: var(--text-dark);
+}
+
+.introduce-text__main span {
+    color: var(--purple-dark);
+}
+
+.introduce-text__sub {
+    height: 56px;
+    width: 531px;
+    margin-top: 24px;
+}
+
+.introduce-text__sub p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.introduce-button {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.introduce-button__play {
+    background-color: white;
+    border: 1px solid #f2f2f2;
+    margin-left: 22px;
+    margin-right: 14px;
+    display: flex;
+    align-items: center;
+    padding: 18px;
+    border-radius: 50%;
+}
+
+.introduce-button__play:hover {
+    cursor: pointer;
+}
+
+.introduce-button__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--text-dark);
+}
+
+.introduce-right {
+    flex: 1;
+}
+
+.introduce-right__main {
+    width: 575px;
+    height: 575px;
+    background-color: #b3c3ff;
+    border-radius: 50%;
+    margin: 194px auto 44px auto;
+    position: relative;
+}
+.introduce-card {
+    position: absolute;
+    top: 550px;
+    left: 658px;
+    height: 154px;
+    width: 416px;
+    border-radius: 17px;
+    background-color: rgba(255, 255, 255, 0.74);
+    box-shadow: 0px 11px 39px rgba(0, 0, 0, 0.07);
+    backdrop-filter: blur(5.5px);
+    display: flex;
+    align-items: center;
+    z-index: 3;
+}
+
+.introduce-card__img {
+    height: 102px;
+    width: 102px;
+    border-radius: 20px;
+    background-color: var(--gray);
+    margin-left: 26px;
+}
+
+.introduce-card__info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+}
+
+.introduce-card__name {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 39px;
+}
+
+.introduce-card__job {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 15.5px;
+}
+
+.introduce-card__star {
+    display: flex;
+    gap: 9px;
+}
+
+.introduce-card__tick {
+    display: flex;
+    gap: 21.5px;
+}
+
+.introduce-card__tick img {
+    height: 30px;
+    width: 30px;
+}
+
+.introduce-ellipse {
+    position: absolute;
+    height: 575px;
+    width: 575px;
+    top: 194px;
+    left: 926px;
+    z-index: 2;
+}
+
+.introduce-chart {
+    position: absolute;
+    top: 102px;
+    right: -112px;
+    z-index: 4;
+    height: 201px;
+    width: 204px;
+}
+
+.introduce-circles {
+    position: absolute;
+    width: 36px;
+    height: 66px;
+    top: 0;
+    left: -46px;
+}
+
+.introduce-circlesxam {
+    height: 46.2px;
+    width: 46.5px;
+    position: absolute;
+    top: 442px;
+    right: -63px;
+}
+
+.introduce-purpledot {
+    height: 54px;
+    width: 54px;
+    position: absolute;
+    right: 11px;
+    bottom: 133px;
+    z-index: 5;
+}
+
+.introduce-emoji {
+    position: absolute;
+    top: -107px;
+    right: 153px;
+    height: 92px;
+    width: 82px;
+}
+
+.introduce-bluedot {
+    position: absolute;
+    top: -10px;
+    right: 58px;
+}
+
+.introduce-slider {
+    position: absolute;
+    top: 682px;
+}
