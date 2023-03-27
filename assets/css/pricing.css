@@ -1,0 +1,128 @@
+.pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 901px;
+}
+
+.pricing-card {
+    height: 568px;
+    width: 407px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 28px rgba(62, 53, 120, 0.07);
+}
+
+.pricing-head {
+    padding-top: 60px;
+}
+
+.pricing-head__title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: var(--text-dark);
+    margin-bottom: 19px;
+}
+
+.pricing-head__sub {
+    width: 716px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.pricing-body {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 90px;
+}
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-card__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 26px;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.pricing-card__price {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+    text-align: center;
+    padding-top: 38px;
+}
+
+.pricing-card__expiry {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: var(--text-dark);
+}
+
+.pricing-card__benefit {
+    display: flex;
+    flex-direction: column;
+    padding: 53px 0;
+}
+
+.pricing-card__line {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.pricing-card__line img {
+    width: 20px;
+    height: 20px;
+}
+
+.pricing-card__line p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 42px;
+    color: var(--text-dark);
+    margin: 0;
+}
+
+.pricing-card__btn {
+    width: 306px;
+    height: 60px;
+    background-color: #f7f5ff;
+    border-radius: 60px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--purple-dark);
+    border-color: transparent;
+}
+
+.pricing-card__btnpri {
+    width: 306px;
+    height: 60px;
+    background-color: var(--purple-dark);
+    border-radius: 60px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    border-color: transparent;
+}
+
+.pricing-card button:hover {
+    background-color: white;
+    border-color: var(--purple-dark);
+    color: var(--purple-dark);
+}

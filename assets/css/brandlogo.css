@@ -1,0 +1,7 @@
+.brandlogo {
+    margin-top: 115px !important;
+    height: 262px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
