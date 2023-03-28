@@ -36,6 +36,10 @@
     margin-top: 3.2rem;
 }
 
+.footer-col2 {
+    display: flex;
+}
+
 .footer-colmain {
     display: flex;
     flex-direction: column;
@@ -84,6 +88,9 @@
     font-size: 1.6rem;
     line-height: 2.4rem;
     color: #ffffff;
+}
+
+.footer-col5__address {
     width: 28.5rem;
 }
 

@@ -11,20 +11,22 @@
 .introduce-left {
     flex: 1;
 }
+
+.introduce-text {
+    width: 81rem;
+}
+
 .introduce-text__main {
     padding-top: 15.6rem;
+}
+
+.introduce-text__main h1 {
     height: 24rem;
     font-size: 6rem;
     font-weight: 600;
     line-height: 8rem;
-    display: flex;
-    gap: 0;
-    flex-direction: column;
-}
-
-.introduce-text__main p {
-    margin: 0;
     color: var(--text-dark);
+    margin: 0;
 }
 
 .introduce-text__main span {
@@ -48,6 +50,8 @@
     display: flex;
     align-items: center;
     margin-top: 6rem;
+    width: 81rem;
+    position: relative;
 }
 
 .introduce-button__play {
@@ -84,12 +88,13 @@
     margin: 19.4rem auto 4.4rem auto;
     position: relative;
 }
+
 .introduce-card {
     position: absolute;
     top: 55rem;
     left: 65.8rem;
     height: 15.4rem;
-    width: 41.6rem;
+    max-width: 41.6rem;
     border-radius: 1.7rem;
     background-color: rgba(255, 255, 255, 0.74);
     box-shadow: 0px 1.1rem 3.9rem rgba(0, 0, 0, 0.07);
@@ -97,6 +102,7 @@
     display: flex;
     align-items: center;
     z-index: 3;
+    padding: 0 2.6rem;
 }
 
 .introduce-card__img {
@@ -104,7 +110,6 @@
     width: 10.2rem;
     border-radius: 2rem;
     background-color: var(--gray);
-    margin-left: 2.6rem;
 }
 
 .introduce-card__info {
@@ -131,9 +136,15 @@
     gap: 0.9rem;
 }
 
+.introduce-card__star img {
+    height: 2.3rem;
+    width: 2.4rem;
+}
+
 .introduce-card__tick {
     display: flex;
     gap: 2.15rem;
+    margin-left: 0.5rem;
 }
 
 .introduce-card__tick img {
@@ -200,5 +211,5 @@
 
 .introduce-slider {
     position: absolute;
-    top: 68.2rem;
+    top: 14.6rem;
 }

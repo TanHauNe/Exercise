@@ -17,19 +17,16 @@
     gap: 12.8rem;
 }
 
-.header-logo {
-    display: flex;
-    align-items: center;
+
+
+.header-menu {
+    display: none;
+    width: 4rem;
 }
 
 .header-logo img .logo {
-    height: 5.7rem;
-    width: 5.7rem;
-}
-
-.header-logo img .name {
-    height: 3.1rem;
-    width: 7.1rem;
+    height: 5.66rem;
+    width: 14.4rem;
 }
 
 .header-nav {
@@ -70,4 +67,28 @@
     top: 50%;
     transform: translateY(-50%);
     right: 2rem;
+}
+
+.header-display .header-left {
+    flex-direction: column;
+    height: 100%;
+    align-items: start;
+    gap: 3rem;
+}
+
+.header-display .header-left .header-logo{
+    margin-top: 3.7rem;
+}
+
+.header-display .header-left .header-nav {
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-display .header-right {
+    display: block;
+    height: 100%;
+    padding-top: 30rem;
+    display: flex;
 }
