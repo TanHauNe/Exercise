@@ -15,11 +15,11 @@
     </head>
     <body>
         <header class="header">
-            <div class="wrapper wrapper-header">
+            <div class="wrapper wrapper-header" id="menu">
                 <div class="header-left">
                     <div class="header-logo">
                         <img class="logo" src="./assets/image/logo.png" alt="" />
-                        <img class="name" src="./assets/image/Ziro.png" alt="" />
+                        <img onclick="handleDisplay()" class="header-menu" src="./assets/image/menu.png" alt="" />
                     </div>
                     <div class="header-nav">
                         <a href="#">Home</a>
@@ -43,9 +43,7 @@
                 <div class="introduce-left">
                     <div class="introduce-text">
                         <div class="introduce-text__main">
-                            <p>Find out <span>talented</span></p>
-                            <p><span>freelancer</span> with better</p>
-                            <p>review faster</p>
+                            <h1>Find out <span>talented freelancer</span> with better review faster</h1>
                         </div>
                         <div class="introduce-text__sub">
                             <p>
@@ -60,6 +58,7 @@
                             <img src="./assets/image/play-button.png" alt="" />
                         </div>
                         <div class="introduce-button__text">Watch Demo</div>
+                        <img class="introduce-slider" src="./assets/image/sliderIndicator.png" alt="" />
                     </div>
                 </div>
                 <div class="introduce-right">
@@ -72,7 +71,12 @@
                         <img class="introduce-emoji" src="./assets/image/emoji.png" alt="" />
                     </div>
                     <div class="introduce-card">
-                        <div class="introduce-card__img"></div>
+                        <!-- <div class="introduce-card__img"></div> -->
+                        <img
+                            class="introduce-card__img"
+                            src="https://media.gq.com/photos/56e853e7161e63486d04d6c8/4:3/pass/david-beckham-gq-0416-2.jpg"
+                            alt=""
+                        />
                         <div class="introduce-card__info">
                             <div class="introduce-card__name">David</div>
                             <div class="introduce-card__job">UI/UX Designer</div>
@@ -90,14 +94,15 @@
                         </div>
                     </div>
                 </div>
-                <img class="introduce-slider" src="./assets/image/sliderIndicator.png" alt="" />
             </div>
         </div>
         <div class="wrapper">
             <div class="howwork">
                 <div class="howwork-left">
-                    <div class="howwork-title">How it works</div>
-                    <div class="howwork-text">Start find a job you love with us easily</div>
+                    <div class="howwork-tt">
+                        <div class="howwork-title">How it works</div>
+                        <div class="howwork-text">Start find a job you love with us easily</div>
+                    </div>
                     <div class="howwork-allpart">
                         <div class="howwork-part">
                             <div class="howwork-part1__num"><span>1</span></div>
@@ -122,12 +127,18 @@
                     </div>
                 </div>
                 <div class="howwork-right">
-                    <div class="howwork-media">
-                        <img src="./assets/image/iconPlayvideo.png" alt="" />
-                        <img class="howwork-chart" src="./assets/image/chartwork.png" alt="" />
-                        <img class="howwork-circle" src="./assets/image/circleElement.png" alt="" />
-                        <img class="howwork-lines" src="./assets/image/lines.png" alt="" />
-                    </div>
+                    <iframe
+                        class="howwork-media"
+                        src="https://www.youtube.com/embed/Qc7_zRjH808"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                    >
+                    </iframe>
+                    <img class="howwork-chart" src="./assets/image/chartwork.png" alt="" />
+                    <img class="howwork-circle" src="./assets/image/circleElement.png" alt="" />
+                    <img class="howwork-lines" src="./assets/image/lines.png" alt="" />
                 </div>
             </div>
         </div>
@@ -161,7 +172,6 @@
                         <button class="featured-card_btn">$84/hr</button>
                     </div>
                 </div>
-
                 <div class="featured-card__profile">
                     <div class="featured-card__top">
                         <div class="featured-card__img">
@@ -235,12 +245,8 @@
                     </div>
                 </div>
             </div>
-            <div class="featured-arrow featured-arrowleft">
-                <img src="./assets/image/leftarrow.png" alt="" />
-            </div>
-            <div class="featured-arrow featured-arrowright">
-                <img src="./assets/image/rightarrow.png" alt="" />
-            </div>
+            <img class="featured-arrowleft" src="./assets/image/leftarrow.png" alt="" />
+            <img class="featured-arrowright" src="./assets/image/rightarrow.png" alt="" />
         </div>
 
         <div class="wrapper brandlogo">
@@ -260,6 +266,12 @@
             </div>
             <div class="testimonial-body">
                 <div class="testimonial-card">
+                    <div class="testimonial-img">
+                        <img
+                            src="https://imageresizer.static9.net.au/6cepFWaOnxtnYv9Zwj15wni-jbk=/396x0/https%3A%2F%2Fprod.static9.net.au%2Ffs%2Fce5138ac-eff0-4dcb-a95e-7949c4315083"
+                            alt=""
+                        />
+                    </div>
                     <img class="testimonial-ngoackep" src="./assets/image/ngoackep.png" alt="" />
                     <img class="testimonial-circles" src="./assets/image/circlestim.png" alt="" />
                 </div>
@@ -431,36 +443,38 @@
                         <img src="./assets/image/instagram.png" alt="" />
                     </div>
                 </div>
-                <div class="footer-colmain">
-                    <div class="footer-colmain__title">Ziro</div>
-                    <div class="footer-colmain__body">
-                        <div>Why Ziro</div>
-                        <div>Enterprise</div>
-                        <div>Customer Story</div>
-                        <div>Security</div>
-                        <div>Pricing</div>
+                <div class="footer-col2">
+                    <div class="footer-colmain">
+                        <div class="footer-colmain__title">Ziro</div>
+                        <div class="footer-colmain__body">
+                            <div>Why Ziro</div>
+                            <div>Enterprise</div>
+                            <div>Customer Story</div>
+                            <div>Security</div>
+                            <div>Pricing</div>
+                        </div>
                     </div>
-                </div>
-                <div class="footer-colmain footer-colmain__2">
-                    <div class="footer-colmain__title">Resources</div>
-                    <div class="footer-colmain__body">
-                        <div>Download</div>
-                        <div>Help Center</div>
-                        <div>Events</div>
-                        <div>Guides</div>
-                        <div>Partner</div>
-                        <div>Directories</div>
+                    <div class="footer-colmain footer-colmain__2">
+                        <div class="footer-colmain__title">Resources</div>
+                        <div class="footer-colmain__body">
+                            <div>Download</div>
+                            <div>Help Center</div>
+                            <div>Events</div>
+                            <div>Guides</div>
+                            <div>Partner</div>
+                            <div>Directories</div>
+                        </div>
                     </div>
-                </div>
-                <div class="footer-colmain">
-                    <div class="footer-colmain__title">Company</div>
-                    <div class="footer-colmain__body">
-                        <div>About us</div>
-                        <div>Contact us</div>
-                        <div>Products</div>
-                        <div>Login</div>
-                        <div>Sign Up</div>
-                        <div>FAQ</div>
+                    <div class="footer-colmain">
+                        <div class="footer-colmain__title">Company</div>
+                        <div class="footer-colmain__body">
+                            <div>About us</div>
+                            <div>Contact us</div>
+                            <div>Products</div>
+                            <div>Login</div>
+                            <div>Sign Up</div>
+                            <div>FAQ</div>
+                        </div>
                     </div>
                 </div>
                 <div class="footer-col5">
@@ -468,7 +482,9 @@
                     <div class="footer-col5__body">
                         <div class="footer-col5__contact">
                             <img src="./assets/image/map-marker.png" alt="" />
-                            <p>832 Thompson Drive, San Fransisco CA 94107, United States</p>
+                            <p class="footer-col5__address">
+                                832 Thompson Drive, San Fransisco CA 94107, United States
+                            </p>
                         </div>
                         <div class="footer-col5__contact">
                             <img src="./assets/image/phone.png" alt="" />
@@ -488,5 +504,15 @@
                 <div class="copyright-right"><img src="./assets/image/timdo.png" alt="" /></div>
             </div>
         </div>
+        <script>
+            function handleDisplay() {
+                var element = document.getElementById('menu');
+                if (element.classList.contains('header-display')) {
+                    element.classList.remove('header-display');
+                } else {
+                    element.classList.add('header-display');
+                }
+            }
+        </script>
     </body>
 </html>

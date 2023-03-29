@@ -1,105 +1,112 @@
 .footer {
     background-color: var(--background-footer);
-    height: 579px;
+    height: 57.9rem;
 }
 
 .footer-main {
     display: flex;
     /* height: 100%; */
-    padding-top: 153px;
+    padding-top: 15.3rem;
 }
 
 .footer-col1 {
-    height: 295px;
-    width: 427px;
+    height: 29.5rem;
+    width: 42.7rem;
     display: flex;
     flex-direction: column;
-    margin-right: 114px;
+    margin-right: 11.4rem;
 }
 
 .footer-col1__logo img {
-    height: 57px;
-    width: 144px;
+    height: 5.7rem;
+    width: 14.4rem;
 }
 
 .footer-col1__text {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
     color: #ffffff;
-    margin-top: 60px;
+    margin-top: 6rem;
 }
 
 .footer-col1__social img {
-    width: 58px;
-    height: 58px;
-    margin-top: 32px;
+    width: 5.8rem;
+    height: 5.8rem;
+    margin-top: 3.2rem;
+}
+
+.footer-col2 {
+    display: flex;
 }
 
 .footer-colmain {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 2.4rem;
 }
 
 .footer-colmain__title {
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 2rem;
+    line-height: 3rem;
     color: #ffffff;
 }
 
 .footer-colmain__body {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 2rem;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
     color: #ffffff;
 }
 
 .footer-colmain__2 {
-    margin-left: 138px;
-    margin-right: 108px;
+    margin-left: 13.8rem;
+    margin-right: 10.8rem;
 }
 
 .footer-col5 {
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    margin-left: 112px;
+    gap: 2.4rem;
+    margin-left: 11.2rem;
 }
 
 .footer-col5__body {
     display: flex;
-    gap: 40px;
+    gap: 4rem;
     flex-direction: column;
 }
 
 .footer-col5__body p {
     margin: 0;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
     color: #ffffff;
-    width: 285px;
+}
+
+.footer-col5__address {
+    width: 28.5rem;
 }
 
 .footer-col5__body img {
-    width: 24px;
-    height: 24px;
+    width: 2.4rem;
+    height: 2.4rem;
 }
 
 .footer-col5__title {
     font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 2rem;
+    line-height: 3rem;
     color: #ffffff;
 }
 
 .footer-col5__contact {
     display: flex;
-    gap: 15px;
+    gap: 1.5rem;
 }
