@@ -8,13 +8,19 @@
     background-color: #c4c4c4;
     border-radius: 18rem 2rem 18rem 18rem;
     position: relative;
-    overflow: hidden;
+}
+
+.testimonial-img img{
+    width: 36.9rem;
+    height: 36.9rem;
+    object-fit: cover;
 }
 
 .testimonial-img{
     width: 36.9rem;
     height: 36.9rem;
-    object-fit: cover;
+    border-radius: 18rem 2rem 18rem 18rem;
+    overflow: hidden;
 }
 
 .testimonial-ngoackep {

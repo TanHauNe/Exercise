@@ -148,3 +148,7 @@
     height: 5rem;
     width: 5rem;
 }
+
+.featured-card::-webkit-scrollbar {
+    display: none;
+}

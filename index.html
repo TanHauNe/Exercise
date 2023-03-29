@@ -15,10 +15,11 @@
     </head>
     <body>
         <header class="header">
-            <div class="wrapper wrapper-header">
+            <div class="wrapper wrapper-header" id="menu">
                 <div class="header-left">
                     <div class="header-logo">
                         <img class="logo" src="./assets/image/logo.png" alt="" />
+                        <img onclick="handleDisplay()" class="header-menu" src="./assets/image/menu.png" alt="" />
                     </div>
                     <div class="header-nav">
                         <a href="#">Home</a>
@@ -35,7 +36,6 @@
                     <button class="btn btn--light">Log In</button>
                     <button class="btn btn--dark">Sign Up</button>
                 </div>
-                <img class="header-menu" src="./assets/image/menu.png" alt="" />
             </div>
         </header>
         <div class="introduce">
@@ -71,7 +71,12 @@
                         <img class="introduce-emoji" src="./assets/image/emoji.png" alt="" />
                     </div>
                     <div class="introduce-card">
-                        <div class="introduce-card__img"></div>
+                        <!-- <div class="introduce-card__img"></div> -->
+                        <img
+                            class="introduce-card__img"
+                            src="https://media.gq.com/photos/56e853e7161e63486d04d6c8/4:3/pass/david-beckham-gq-0416-2.jpg"
+                            alt=""
+                        />
                         <div class="introduce-card__info">
                             <div class="introduce-card__name">David</div>
                             <div class="introduce-card__job">UI/UX Designer</div>
@@ -261,11 +266,12 @@
             </div>
             <div class="testimonial-body">
                 <div class="testimonial-card">
-                    <img
-                        class="testimonial-img"
-                        src="https://imageresizer.static9.net.au/6cepFWaOnxtnYv9Zwj15wni-jbk=/396x0/https%3A%2F%2Fprod.static9.net.au%2Ffs%2Fce5138ac-eff0-4dcb-a95e-7949c4315083"
-                        alt=""
-                    />
+                    <div class="testimonial-img">
+                        <img
+                            src="https://imageresizer.static9.net.au/6cepFWaOnxtnYv9Zwj15wni-jbk=/396x0/https%3A%2F%2Fprod.static9.net.au%2Ffs%2Fce5138ac-eff0-4dcb-a95e-7949c4315083"
+                            alt=""
+                        />
+                    </div>
                     <img class="testimonial-ngoackep" src="./assets/image/ngoackep.png" alt="" />
                     <img class="testimonial-circles" src="./assets/image/circlestim.png" alt="" />
                 </div>
@@ -498,5 +504,15 @@
                 <div class="copyright-right"><img src="./assets/image/timdo.png" alt="" /></div>
             </div>
         </div>
+        <script>
+            function handleDisplay() {
+                var element = document.getElementById('menu');
+                if (element.classList.contains('header-display')) {
+                    element.classList.remove('header-display');
+                } else {
+                    element.classList.add('header-display');
+                }
+            }
+        </script>
     </body>
 </html>

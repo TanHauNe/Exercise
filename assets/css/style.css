@@ -20,6 +20,10 @@
     --background-footer: #1f2131;
 }
 
+* {
+    transition: all 1s ease-in-out;
+}
+
 html,
 body {
     font-family: 'Poppins', sans-serif;
@@ -100,18 +104,32 @@ img:hover {
 }
 
 @media screen and (max-width: 1400px) {
-    .header-right,
-    .header-nav {
-        display: none;;
+    .header-right {
+        display: none;
     }
-    .header-menu{
+    .header-nav {
+        display: none;
+        flex-direction: row;
+    }
+    .header-menu {
         display: block;
     }
-    .header-left{
+    .header-left {
         width: 100%;
     }
     .header-logo {
         width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .wrapper-header {
+        flex-direction: column;
+    }
+    .header {
+        position: fixed;
+        width: 100%;
+        z-index: 100;
     }
 }
 
@@ -242,8 +260,19 @@ img:hover {
     html {
         font-size: 6px;
     }
+    .introduce-main {
+        position: relative;
+        padding-top: 5rem;
+        padding-bottom: 20rem;
+    }
     .introduce-left {
         flex-direction: column;
+        z-index: 10;
+    }
+    .introduce-right {
+        position: absolute;
+        width: 100%;
+        opacity: 0.5;
     }
     .introduce-text {
         display: flex;
@@ -265,6 +294,9 @@ img:hover {
         height: 100%;
     }
     .pricing-body {
+        flex-direction: column;
+    }
+    .footer-col5 {
         flex-direction: column;
     }
 }

@@ -11,3 +11,7 @@
 .brandlogo img {
     min-width: 19.3rem;
 }
+
+.brandlogo::-webkit-scrollbar {
+    display: none;
+}

@@ -1,12 +1,13 @@
 .header {
-    height: 13rem;
     background-color: var(--background);
+    padding: 3.7rem 0;
 }
 
 .wrapper-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 13rem ;
     height: 100%;
 }
 
@@ -17,14 +18,13 @@
     gap: 12.8rem;
 }
 
-
-
 .header-menu {
     display: none;
     width: 4rem;
+    height: 4rem;
 }
 
-.header-logo img .logo {
+.header-logo .logo {
     height: 5.66rem;
     width: 14.4rem;
 }
@@ -76,19 +76,26 @@
     gap: 3rem;
 }
 
-.header-display .header-left .header-logo{
-    margin-top: 3.7rem;
+.header-display .header-left .header-logo {
+
 }
 
 .header-display .header-left .header-nav {
     display: block;
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .header-display .header-right {
     display: block;
     height: 100%;
-    padding-top: 30rem;
+    padding-top: 5rem;
     display: flex;
+}
+
+.wrapper .wrapper-header .header-display{
+    z-index: 100;
+    height: 40rem !important;
+    background-color: white !important;
 }

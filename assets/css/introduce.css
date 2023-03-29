@@ -110,6 +110,7 @@
     width: 10.2rem;
     border-radius: 2rem;
     background-color: var(--gray);
+    object-fit: cover;
 }
 
 .introduce-card__info {
